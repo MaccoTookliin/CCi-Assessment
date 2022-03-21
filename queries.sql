@@ -1,4 +1,5 @@
 -- 1. Which client has conducted the most assessments in total?
+-------- Following quiries returns Client with most assessments in total in DESCENDING order (client 3 with a total of 1592 )
 SELECT 
 	ï»¿client,
     COUNT(tracc_practice) AS total
@@ -6,6 +7,7 @@ FROM data
 GROUP BY ï»¿client
 ORDER BY total DESC;
 
+-------- Following quirie returns only 1 client (client 3 with a total of 1592 )
 SELECT 
 	ï»¿client AS Client, 
     MAX(total) AS Total_Assessments
