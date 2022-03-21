@@ -1,6 +1,5 @@
 # CCi-Assessment
 
-This README would normally document whatever steps are necessary to get your application up and running.
 ### Please note that the assessment_date has been converted to a SQL DATE data type
 	*** In my Local Machine SQL DB this is how client-column appears in my table as "ï»¿client"
 	*** Should your DB data type be DATE data-type you will receive the same results, where after March-31-2018 we have 40 clients and 2599 assessments conducted 
@@ -44,14 +43,14 @@ This assessment consists out of two parts:
     You may submit a Jupyter notebook or simply paste the code into a plain text file.
 
 *** Questions
-    Which client has conducted the most assessments in total?
-    Across how many countries are our clients assessing TRACC practices ?
-    How many assessments were conducted in total for all clients, after 31 March 2018 ?
-    How many unique TRACC practices did Client 48 assess ?
-    How many assessments were done for each practice in 2017 ?
-    Which clients have achieved a maturity score greater than 2.5, for the 5S and Teamwork practices ?
-    Evaluation criteria
-    We should be able to run the code and generate the correct answer, without any errors.
+    * Which client has conducted the most assessments in total?
+    * Across how many countries are our clients assessing TRACC practices ?
+    * How many assessments were conducted in total for all clients, after 31 March 2018 ?
+    * How many unique TRACC practices did Client 48 assess ?
+    * How many assessments were done for each practice in 2017 ?
+    * Which clients have achieved a maturity score greater than 2.5, for the 5S and Teamwork practices ?
+    * Evaluation criteria
+    * We should be able to run the code and generate the correct answer, without any errors.
 
 *** Part 2 - Data Visualisation
     Using maturity_assessment_dataset.csv, generate at least three insightful visuals about the TRACC assessment data. Where applicable, provide a short description of your findings.
